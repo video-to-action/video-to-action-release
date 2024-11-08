@@ -1,0 +1,28 @@
+*.pyc
+**.pyc
+ckpts/**
+results/**
+trash/**
+.ipynb_checkpoints/**
+**.pt
+
+### -------------
+src/**
+luotest/**
+metaworld/luotest/**
+metaworld/**.ipynb
+# tmp**.png
+logs/**
+.vscode/**
+diffuser/eval/*.ipynb
+diffuser/luotest/**
+diffuser/baselines/*/luotest**.ipynb
+scripts/luotest/**
+data_dir/*
+
+
+### -------------------------
+environment/libero/luotest*.py
+environment/libero/luotest*.ipynb
+environment/scripts/luotest*.ipynb
+flowdiffusion/flowdiffusion.egg-info/**

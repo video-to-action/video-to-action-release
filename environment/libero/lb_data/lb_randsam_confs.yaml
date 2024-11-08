@@ -1,0 +1,85 @@
+## Config File for Generating Random Actions
+
+## 5 random action episodes per task
+lb_randsam_8tk_perTk5:
+  
+  seed_u: 27
+  el_name: libero-8tk-65to72-v3
+
+  rand_explo_num_Ep_per_tk: 5
+
+  x_limit: [-0.28, 0.21] ## facing cameras
+  y_limit: [-0.33, 0.38] ## left / right
+  z_limit: [0.0, 0.80]
+
+  is_stop_when_out: true
+  rand_act_noise_std: 0.003
+  rand_act_noise_std_orn: 0.00001
+  act_min_np: [-1., -1., -1., -0.01, -0.01, -0.01, -1.]
+  act_max_np: [1.,  1.,   1.,  0.01, 0.01, 0.01, 1.]
+
+  r_a_g_ranges: [[-0.981,-0.98], [0.98, 0.981]]
+
+  rand_ep_len: 120 ## min len of actions
+  rand_act_full_len: 24
+
+  orn_sample_range: [-0.01, 0.01]
+
+  r_a_g_sample_weight:
+
+
+
+## 500 per task
+lb_randsam_8tk_perTk500:
+  
+  seed_u: 27
+  el_name: libero-8tk-65to72-v3
+
+  rand_explo_num_Ep_per_tk: 500
+
+  x_limit: [-0.28, 0.21] ## facing cameras
+  y_limit: [-0.33, 0.38] ## left / right
+  z_limit: [0.0, 0.80]
+
+  is_stop_when_out: true
+  rand_act_noise_std: 0.003
+  rand_act_noise_std_orn: 0.00001
+  act_min_np: [-1., -1., -1., -0.01, -0.01, -0.01, -1.]
+  act_max_np: [1.,  1.,   1.,  0.01, 0.01, 0.01, 1.]
+
+  r_a_g_ranges: [[-0.981,-0.98], [0.98, 0.981]]
+
+  rand_ep_len: 120 ## min len of actions
+  rand_act_full_len: 24
+
+  orn_sample_range: [-0.01, 0.01]
+
+  r_a_g_sample_weight:
+
+
+## just a dummy placeholder
+lb_randsam_8tk_dummy_example:
+  
+  seed_u: 27
+  el_name: libero-8tk-65to72-v3
+
+  rand_explo_num_Ep_per_tk: 1
+
+  x_limit: [-0.28, 0.21] ## facing cameras
+  y_limit: [-0.33, 0.38] ## left / right
+  z_limit: [0.0, 0.80]
+
+  is_stop_when_out: true
+  rand_act_noise_std: 0.003
+  rand_act_noise_std_orn: 0.00001
+  act_min_np: [-1., -1., -1., -0.01, -0.01, -0.01, -1.]
+  act_max_np: [1.,  1.,   1.,  0.01, 0.01, 0.01, 1.]
+
+  r_a_g_ranges: [[-0.981,-0.98], [0.98, 0.981]]
+
+  rand_ep_len: 4 ## min len of actions
+  rand_act_full_len: 2
+
+  orn_sample_range: [-0.01, 0.01]
+
+  r_a_g_sample_weight:

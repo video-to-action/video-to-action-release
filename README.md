@@ -1,8 +1,8 @@
 # Grounding Video Models to Actions through Goal Conditioned Exploration
 
 [[Project page]](https://video-to-action.github.io/)
-[[Paper]]()
-[[ArXiv]]()
+[[Paper]](https://arxiv.org/pdf/2411.07223)
+[[ArXiv]](https://arxiv.org/abs/2411.07223)
 <!-- [![][colab]][maze2d-eval-demo] -->
 <!-- [[Data]]() -->
 <!-- [Colab]() -->
@@ -23,7 +23,7 @@ This is the official implementation for "*Grounding Video Models to Actions thro
 
 
 <p align="center">
-  <img src="media/1-teaser-v4-for-web.png" alt="potential composition illustration."  width="55%" >
+  <img src="media/1-teaser-v4-for-web.png" alt="potential composition illustration."  width="58%" >
 </p>
 
 <!-- <p align="center">
@@ -189,4 +189,13 @@ Contact [Yunhao Luo](https://devinluo27.github.io/) if you have any questions or
 If you find our work useful, please consider citing:
 <!-- TODO: -->
 ```
+@misc{luo2024groundingvideomodelsactions,
+      title={Grounding Video Models to Actions through Goal Conditioned Exploration}, 
+      author={Yunhao Luo and Yilun Du},
+      year={2024},
+      eprint={2411.07223},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2411.07223}, 
+}
 ```

@@ -21,6 +21,8 @@
 
 This is the official implementation for "*Grounding Video Models to Actions through Goal Conditioned Exploration*".
 
+This codebase contains code for the agent exploration and policy inference in the environments. Please see [v2a-video-model-release](https://github.com/video-to-action/v2a-video-model-release) for code to train the video models.
+
 
 <p align="center">
   <img src="media/1-teaser-v4-for-web.png" alt="potential composition illustration."  width="58%" >

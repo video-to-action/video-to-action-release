@@ -191,13 +191,10 @@ Contact [Yunhao Luo](https://devinluo27.github.io/) if you have any questions or
 If you find our work useful, please consider citing:
 <!-- TODO: -->
 ```
-@misc{luo2024groundingvideomodelsactions,
-      title={Grounding Video Models to Actions through Goal Conditioned Exploration}, 
-      author={Yunhao Luo and Yilun Du},
-      year={2024},
-      eprint={2411.07223},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2411.07223}, 
+@article{luo2024grounding,
+  title={Grounding Video Models to Actions through Goal Conditioned Exploration},
+  author={Luo, Yunhao and Du, Yilun},
+  journal={arXiv preprint arXiv:2411.07223},
+  year={2024}
 }
 ```
